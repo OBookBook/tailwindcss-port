@@ -600,6 +600,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;

@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    // https://tailwindcss.com/docs/configuration
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: {
