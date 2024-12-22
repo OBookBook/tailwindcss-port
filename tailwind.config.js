@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         body: "#050505",
         "selected-text": "red",
+        theme: "#5c318c",
         primary: {
           100: "#ebf8ff",
           300: "#90cdf4",
