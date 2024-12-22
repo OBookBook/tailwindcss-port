@@ -13,6 +13,8 @@ module.exports = {
         theme: "#5c318c",
         secondary: "#9191A4",
         badge: "#3F3F51",
+        inputBorder: "#565666",
+        input: "#2A2A33",
         primary: {
           100: "#ebf8ff",
           300: "#90cdf4",
