@@ -22,6 +22,10 @@
   @apply bg-blue-500 text-white hover:bg-blue-600;
 }
 
+.badge {
+  @apply px-4 py-2 text-sm bg-badge;
+}
+
 .easey-button {
   padding: 10px 20px;
   background-color: #467ef7;

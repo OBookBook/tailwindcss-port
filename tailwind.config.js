@@ -12,6 +12,7 @@ module.exports = {
         "selected-text": "red",
         theme: "#5c318c",
         secondary: "#9191A4",
+        badge: "#3F3F51",
         primary: {
           100: "#ebf8ff",
           300: "#90cdf4",
