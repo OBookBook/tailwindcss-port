@@ -11,6 +11,7 @@ module.exports = {
         body: "#050505",
         "selected-text": "red",
         theme: "#5c318c",
+        secondary: "#9191A4",
         primary: {
           100: "#ebf8ff",
           300: "#90cdf4",

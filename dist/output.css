@@ -626,6 +626,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-64 {
+  margin-top: 16rem;
+}
+
 .flex {
   display: flex;
 }
@@ -783,6 +787,32 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.secondary-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.secondary-title::before {
+  content: "";
+  margin-bottom: 0.25rem;
+  display: block;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 49 140 / var(--tw-bg-opacity, 1));
+}
+
+.section-paragraph {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 48rem;
+  --tw-text-opacity: 1;
+  color: rgb(145 145 164 / var(--tw-text-opacity, 1));
 }
 
 .btn {
