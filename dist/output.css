@@ -606,6 +606,18 @@ video {
   display: flex;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -651,6 +663,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .font-poppins {
@@ -748,6 +765,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -760,6 +782,11 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .lg\:text-pink-400 {
     --tw-text-opacity: 1;
     color: rgb(244 114 182 / var(--tw-text-opacity, 1));
