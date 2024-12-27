@@ -1,0 +1,75 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.secondary-title {
+  @apply text-3xl font-bold;
+}
+
+.secondary-title::before {
+  content: "";
+  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.section-paragraph {
+  @apply text-secondary my-6 w-full max-w-3xl;
+}
+.btn {
+  @apply font-bold py-2 px-4 rounded ml-10;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.badge {
+  @apply px-4 py-2 text-sm bg-badge;
+}
+
+.easey-button {
+  padding: 10px 20px;
+  background-color: #467ef7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-left: 40px;
+}
+
+.easey-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #6b9dfa, #467ef7);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 40px;
+}
+
+.easey-button:hover {
+  background: linear-gradient(135deg, #467ef7, #386ad6);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.easey-button:active {
+  background: linear-gradient(135deg, #386ad6, #2c53a5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+
+.easey-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 126, 247, 0.4);
+}
