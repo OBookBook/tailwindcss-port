@@ -53,7 +53,7 @@ function App() {
             </button>
           </div>
           <img
-            src="./../public/human.jpeg"
+            src="/human.jpeg"
             alt="human"
             className="md:absolute w-10/12 mt-12 mx-auto right-6 -z-10 md:w-3/5 md:mt-0 lg:w-3/6 lg:top-2 lg:right-52"
           />
