@@ -70,7 +70,7 @@ function App() {
             {[...Array(6)].map((_, index) => (
               <img
                 key={index}
-                src="./../public/opengraph-image.png"
+                src="/opengraph-image.png"
                 alt={`Portfolio ${index}`}
                 className="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
